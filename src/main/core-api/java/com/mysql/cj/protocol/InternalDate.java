@@ -83,7 +83,7 @@ public class InternalDate {
     }
 
     public boolean isZero() {
-        return this.year == 0 && this.month == 0 && this.day == 0;
+        return this.year == 0 || this.month == 0 || this.day == 0;
     }
 
 }
